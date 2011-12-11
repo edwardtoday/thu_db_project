@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AssertVectorEqual	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^bool AssertVectorEqual(const vector<T>& results, const vector<T>& correctResults)$/;"	function	line:19
+ComputeEfficiency	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^void ComputeEfficiency(const FZ_Indexer& fz_indexer, const TestFile& testFile)$/;"	function	line:105
+CreateIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::CreateIndex() {$/;"	function	line:91
+DestroyIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::DestroyIndex() {$/;"	function	line:191
+Dictionary	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define Dictionary /;"	macro	line:11
+FAILURE	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^const int FAILURE = 0;$/;"	variable	line:20
+FZ_Indexer	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^FZ_Indexer::FZ_Indexer(const char *dataFileName) {$/;"	function	line:53
+FZ_Indexer	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^class FZ_Indexer {$/;"	class	line:22
+Filter	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^void FZ_Indexer::Filter(const char *query, vector<ID_List *> &vectors,$/;"	function	line:333
+GramIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define GramIndex /;"	macro	line:10
+ID_List	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define ID_List /;"	macro	line:9
+LINE_LENGTH	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define LINE_LENGTH /;"	macro	line:15
+LenIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define LenIndex /;"	macro	line:12
+LoadCorrectResults	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^void LoadCorrectResults(const char* resultFile, vector<vector<unsigned>  >& correctResults)$/;"	function	line:50
+LoadIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::LoadIndex() {$/;"	function	line:200
+LoadQueryInfo	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^void LoadQueryInfo(const char* queryFile, vector<pair<string,unsigned> >& queryInfos)$/;"	function	line:30
+MAX_FILENAME_LENGTH	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^const int MAX_FILENAME_LENGTH = 64;$/;"	variable	line:10
+QGRAM	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^#define QGRAM /;"	macro	line:14
+RC	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^typedef int RC; \/\/ type for returned codes$/;"	typedef	line:17
+Refine	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::Refine(const char *query, unsigned num, unsigned edThreshold) const {$/;"	function	line:358
+SCargs	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^} SCargs;$/;"	typedef	line:411
+SUCCESS	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^const int SUCCESS = 1;$/;"	variable	line:19
+SaveIndex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::SaveIndex() {$/;"	function	line:123
+ScanCount	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^void FZ_Indexer::ScanCount(vector<ID_List *> lists, int T,$/;"	function	line:430
+Search	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::Search(const char *query, const unsigned edThreshold, vector<$/;"	function	line:77
+TestFZ_Indexer	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^bool TestFZ_Indexer(const FZ_Indexer& fz_indexer, const TestFile& testFile)$/;"	function	line:128
+TestFile	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^struct TestFile$/;"	struct	line:11
+Tokenize	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^void Tokenize(const string& str, vector<string>& tokens,$/;"	function	line:32
+ValidateCorrectness	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^bool ValidateCorrectness(const FZ_Indexer& fz_indexer, const TestFile& testFile)$/;"	function	line:80
+_notime	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^#define _notime$/;"	macro	line:15
+count	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^	unsigned *count;$/;"	member	line:410
+count_mutex	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^pthread_mutex_t count_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	variable	line:413
+dataFile	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^	char dataFile[MAX_FILENAME_LENGTH];$/;"	member	line:13
+index	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^	mutable LenIndex index;$/;"	member	line:26
+line2gram	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^RC FZ_Indexer::line2gram(char * line, unsigned str_num, GramIndex * child) {$/;"	function	line:311
+main	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^int main()$/;"	function	line:140
+originDataFileName	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^	string originDataFileName;$/;"	member	line:24
+p1	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^typedef pair<string, ID_List*> p1;$/;"	typedef	line:27
+p2	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^typedef pair<unsigned int, GramIndex*> p2;$/;"	typedef	line:28
+p3	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^typedef pair<unsigned int, string> p3;$/;"	typedef	line:29
+part1	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^static double part1, part2, part3, part4;$/;"	variable	line:18
+part2	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^static double part1, part2, part3, part4;$/;"	variable	line:18
+part3	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^static double part1, part2, part3, part4;$/;"	variable	line:18
+part4	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^static double part1, part2, part3, part4;$/;"	variable	line:18
+queryFile	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^	char queryFile[MAX_FILENAME_LENGTH];$/;"	member	line:14
+resultFile	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/perftest.cc	/^	char resultFile[MAX_FILENAME_LENGTH];$/;"	member	line:15
+scancount	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^void *scancount(void *x) {$/;"	function	line:415
+sublist	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^	vector<vector<unsigned>*> *sublist;$/;"	member	line:409
+words	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.h	/^	mutable Dictionary words;$/;"	member	line:27
+~FZ_Indexer	/Users/edwardtoday/Documents/EclipseWorkspaces/FZ_indexer/src/FZ_indexer.cc	/^FZ_Indexer::~FZ_Indexer() {$/;"	function	line:66
